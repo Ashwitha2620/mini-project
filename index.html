@@ -1,0 +1,797 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mini-project-webpage</title>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+
+      
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <style> 
+
+header {
+    display: grid;
+    background-color: #343a40;
+    grid-template-columns: 50% 50%;
+    
+}
+.menus{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    list-style: none;
+}
+a:hover{
+    text-decoration: none;
+    color: rgb(11, 233, 233);   
+}
+.menuname{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(173, 193, 230);
+    font-size: small;
+    list-style: none;
+}
+.section1{
+    display: flex;
+    justify-content: center;
+    background: url("./mini-resources/slide-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    margin: 0%;
+    color: white;   
+}
+#welcome{
+    font-size: xx-large;
+    color: whitesmoke;
+}
+aside{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+.center1{
+    padding-top: 200px;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
+
+}
+.getstarted
+{
+    
+    border: 3px solid green;
+    border-radius: 23px;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-decoration: none;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+/*************************************section2*************************************************/
+
+.section2{
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: small;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(164, 158, 158);
+}
+.about{
+    color: rgb(124, 118, 118);
+    font-size: x-large;
+}
+
+/*************************************section3*************************************************/
+.section3{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: rgb(164, 158, 158);
+    /* /*font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;* */
+    color: rgb(124, 118, 118);
+    
+}
+.abtimage{
+    height:530px ;
+    width: 625px;
+    
+}
+.hd-cnt{
+    color: rgb(124, 118, 118);
+    font-size: x-large;
+    margin-top: 0px;
+}
+/*************************************section2*************************************************/
+.section4
+{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border: 1px solid  whitesmoke ;
+    background-color: whitesmoke;
+    margin-top: 30px;
+    
+
+}
+.box1{
+    border: 1px solid white;
+    padding: 100px;
+    display:inline;
+    display: grid;
+    height: 20px;
+    width: 90px;
+    background-color: white;
+   
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 100px;
+    justify-content: center;
+
+}
+.box2{
+    margin-left:100px ;
+    border: 1px solid white;
+    padding: 100px;
+    display: grid;
+    height: 20px;
+    width: 90px;
+    background-color: white;
+   
+    justify-content: space-around;
+    margin-left: 45px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.box3{
+    margin-left:100px ;
+    border: 1px solid white;
+    padding: 100px;
+    display: grid;
+    height: 20px;
+    width: 90px;
+    background-color: white;
+    justify-content: center;
+    justify-content: space-around;
+    margin-left: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.box4{
+    margin-left:100px ;
+    border: 1px solid white;
+    padding: 100px;
+    display: grid;
+    height: 20px;
+    width: 90px;
+    
+    background-color: white;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 30px;
+    margin-right: 100px;
+}
+.numbers{
+    color: rgb(124, 118, 118);
+    font-size: x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 0px;
+}
+svg{
+    height: 40px;
+        width: 40px;
+        color: lightseagreen;
+   
+}
+
+.section5{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.box5{
+    border: 1px solid;
+    height: 320px;
+    width: 270px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 100px;
+    margin-right: 40px;
+    
+}
+.box6{
+    border: 1px solid;
+    height: 320px;
+    width: 270px;
+   
+
+    margin-left: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.box7{
+    border: 1px solid;
+    height: 320px;
+    width: 270px;
+    
+
+    margin-left: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.box8{
+    border: 1px solid;
+    height: 320px;
+    width: 270px;
+    
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 30px;
+    margin-right: 100px;
+}
+
+.section6{
+    display: flex;
+    justify-content: center;
+    background: url("./mini-resources/cta-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    margin: 0%;
+    color: white;
+    margin-top: 5px;   
+}
+.center2{
+    padding-top: 50px;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
+
+}
+.section7
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);   
+    margin-right: 100px; 
+    margin-left: 100px;
+    margin-top: 30px;
+    background-color: whitesmoke;
+}
+.services
+{
+    
+    grid-template-columns: repeat(3, 1fr);
+    margin: 20px;
+    height: 300px;
+    width: 400px;
+}
+.section8{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-bottom: 30px;
+}
+.dropdown{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.architectimage
+{
+    background-size: contain;
+    width: 750px;
+    height: 600px;
+}
+.h3
+{
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: rgb(50, 43, 43);
+}
+.loreum{
+    font-size: small;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(164, 158, 158);
+    margin-left: 100px;margin-right: 100px;
+
+}
+.art1{
+    border: 1px solid;
+    background-color: lightgray;
+    border-color: lightgray;
+    margin: 15px;
+    border-width: 20px;
+    
+}
+.section9{
+    background-color: whitesmoke;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.portifolio{
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border: 1px solid;
+    border-radius: 40px;
+    padding-left: 500px;
+    padding-right: 500px;
+    
+    
+       
+}
+.p-menus:hover{
+    word-wrap: unset;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    color: lime;
+    
+    
+    
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+
+.p-images
+{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   
+   margin-right: 100px;
+   margin-left: 100px;
+   background-color: whitesmoke;
+   background-color: ;
+}
+.p-images1
+{
+    height: 300px;
+    width: 400px;
+    margin: 20px;
+}
+.section10{
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: small;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(164, 158, 158);
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.team-images
+{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.tm-images1
+{
+    display: grid;
+    height: 300px;
+    width: 300px;
+    margin: 10px;
+}
+.section11{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.contactlogos{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    height: 00px;
+    width: 300px;
+}
+
+.section12{
+    background-color: #4d4e4f;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+   
+
+}
+
+.links{
+    list-style: none;
+    color: antiquewhite;
+    
+    
+
+}
+.footlinks{
+    
+    display: grid;
+    grid-template-columns: repeat(1, 4fr);
+    list-style: none;
+}
+.copyright{
+    padding-left: 70px;
+}
+figcaption{
+    color: whitesmoke;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: smaller;
+}
+aside{
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+}
+h3{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
+
+    </style>
+</head>
+
+
+
+<body>
+    
+   <!-- /*************************************section1*************************************************/-->
+    <header>
+		<img class= headlogo id="logo"src="https://www.achieversit.com/assets/images/logo-white.png" alt="logo">		
+		<ul class="menus">
+			<li><a class="menuname" href="">HOME</a></li>
+			<li><a class="menuname" href="">ABOUT US</a></li>			
+			<li><a class="menuname" href="">SERVICES</a></li>			
+			<li><a class="menuname" href="">PORTIFOLIO</a></li>
+			<li><a class="menuname" href="">TEAM</a></li>
+			<li><a class="menuname" href="">CONTACT</a></li>
+		</ul>
+	</header>
+   <!-- /*************************************section1*************************************************/-->
+    <section class="section1">
+        <center class="center1">
+        <h1 id="welcome"><b>Welcome to AchieversIT </b></h1>
+        <aside>AchieversIT - Provides a wide group of oppurtunities for freshers and Experienced candidate who can develop <br>
+        their skills and build their career oppurtunitiea across multiple Companies.</aside><br><br>
+        <a class="getstarted" href="">Get Started</a></center>
+    </section>
+
+   <!-- /*************************************section2*************************************************/-->
+
+    <section class="section2">
+        <center><h4 class="about">ABOUT US</h4>
+        <p>Achieversit has built up a robust Live Instructor-Led internet preparing stage that permitd learner to get prepared by the 
+            Expert coaches and through elf guided preparing programs. SchieversIT incorporates learning conditions combining traditional
+            learning the board with social association and coorperative abilities to construct a branded and corporate learning arrangement 
+            that guides and expands commitment.
+        </p></center>
+    </section>
+    
+<!-- /*************************************section3*************************************************/-->
+
+        <section class="section3">
+        <DIv class="abtimage0">
+            <img class="abtimage" src="./mini-resources/about.jpg" alt="aboutimage">
+        </DIv>
+        <div class="about-content">
+            <h4 class="hd-cnt">AchieversIT</h4>
+            <article>
+                <i> AchieversIT training Services has proven to best at their knowledge to get me good job. My experience to date with the 
+                proffessionals at AchieversIT has been exellent!. The topics covered were relevant and the role playing was particularly 
+                valuable allowing them to focus and anticipate objections as though inwas on the job. Trainer's style allowed for a dynamic 
+                and interactive learning experience for all who participated."</i>
+                <br>
+            </article>
+            <br>
+            <h6>HTML</h6>
+            <div class="progress" style="height:10px">
+                <div class="progress-bar" style="width:100%;height:10px"></div>
+              </div>
+              <br>
+              <h6>CSS</h6>
+              <div class="progress" style="height:10px">
+                <div class="progress-bar" style="width:90%;height:10px"></div>
+              </div>
+              <br>
+              <h6>JAVASCRIPT</h6>
+              <div class="progress" style="height:10px">
+                <div class="progress-bar" style="width:75%;height:10px"></div>
+              </div>
+              <br>
+              <h6>PHOTOSHOP</h6>
+              <div class="progress" style="height:10px">
+                <div class="progress-bar" style="width:55%;height:10px"></div>
+              </div>
+            </div>
+    </section>
+
+<!-- /*************************************section4*************************************************/-->
+<section class="section4">
+    <!--USE  BOOTSTRAP CARDS OR TO   GET ATLEAST SIMILAR THEN USE FIGURE&FIGCAPTION-->
+<div class="box1">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-emoji-smile" viewBox="0 0 16 16">
+        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+        <path d="M4.285 9.567a.5.5 0 0 1 .683.183A3.498 3.498 0 0 0 8 11.5a3.498 3.498 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.498 4.498 0 0 1 8 12.5a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683zM7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5z"/>
+      </svg> 
+      <h3 class="numbers">232</h3><br>
+      
+</div>
+<div class="box2">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-journal-richtext" viewBox="0 0 16 16">
+        <path d="M7.5 3.75a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0zm-.861 1.542 1.33.886 1.854-1.855a.25.25 0 0 1 .289-.047L11 4.75V7a.5.5 0 0 1-.5.5h-5A.5.5 0 0 1 5 7v-.5s1.54-1.274 1.639-1.208zM5 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5z"/>
+        <path d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2z"/>
+        <path d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1z"/>
+      </svg>
+      <h3 class="numbers">521</h3><br>
+     
+</div>
+<div class="box3">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-headset" viewBox="0 0 16 16">
+        <path d="M8 1a5 5 0 0 0-5 5v1h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a6 6 0 1 1 12 0v6a2.5 2.5 0 0 1-2.5 2.5H9.366a1 1 0 0 1-.866.5h-1a1 1 0 1 1 0-2h1a1 1 0 0 1 .866.5H11.5A1.5 1.5 0 0 0 13 12h-1a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h1V6a5 5 0 0 0-5-5z"/>
+      </svg> 
+      <h3 class="numbers">1463</h3><br>
+
+</div>
+<div class="box4">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill-check" viewBox="0 0 16 16">
+        <path d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm1.679-4.493-1.335 2.226a.75.75 0 0 1-1.174.144l-.774-.773a.5.5 0 0 1 .708-.708l.547.548 1.17-1.951a.5.5 0 1 1 .858.514ZM11 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/>
+        <path d="M2 13c0 1 1 1 1 1h5.256A4.493 4.493 0 0 1 8 12.5a4.49 4.49 0 0 1 1.544-3.393C9.077 9.038 8.564 9 8 9c-5 0-6 3-6 4Z"/>
+      </svg>
+      <h3 class="numbers">15</h3><br> 
+    </div>
+
+</section>
+
+<!-- /*************************************section5*************************************************/-->
+    <section class="section2">
+        <center><h4 class="about">OUR SERVICES</h4>
+        <p>Magnum dolars commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit.
+            Quisquam quos quisquam cupiditate.Et nemo qui impedit suscipit alias ea. Quia fugiat sit in inste pfficiis commodi quidem hic quas.
+        </p></center>
+    </section>
+<!-- /*************************************section6*************************************************/-->
+    <section class="section5">
+        <!--USE  BOOTSTRAP CARDS OR TO GET ATLEAST SIMILAR THEN USE FIGURE&FIGCAPTION-->
+        <div class="box5">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-emoji-smile" viewBox="0 0 16 16">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                <path d="M4.285 9.567a.5.5 0 0 1 .683.183A3.498 3.498 0 0 0 8 11.5a3.498 3.498 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.498 4.498 0 0 1 8 12.5a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683zM7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5z"/>
+              </svg> 
+              <h3 class="numbers">232</h3><br>
+              
+        </div>
+        <div class="box6">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-journal-richtext" viewBox="0 0 16 16">
+                <path d="M7.5 3.75a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0zm-.861 1.542 1.33.886 1.854-1.855a.25.25 0 0 1 .289-.047L11 4.75V7a.5.5 0 0 1-.5.5h-5A.5.5 0 0 1 5 7v-.5s1.54-1.274 1.639-1.208zM5 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5z"/>
+                <path d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2z"/>
+                <path d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1z"/>
+              </svg>
+              <h3 class="numbers">521</h3><br>
+             
+        </div>
+        <div class="box7">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-headset" viewBox="0 0 16 16">
+                <path d="M8 1a5 5 0 0 0-5 5v1h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a6 6 0 1 1 12 0v6a2.5 2.5 0 0 1-2.5 2.5H9.366a1 1 0 0 1-.866.5h-1a1 1 0 1 1 0-2h1a1 1 0 0 1 .866.5H11.5A1.5 1.5 0 0 0 13 12h-1a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h1V6a5 5 0 0 0-5-5z"/>
+              </svg> 
+              <h3 class="numbers">1463</h3><br>
+        
+        </div>
+        <div class="box8">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill-check" viewBox="0 0 16 16">
+                <path d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm1.679-4.493-1.335 2.226a.75.75 0 0 1-1.174.144l-.774-.773a.5.5 0 0 1 .708-.708l.547.548 1.17-1.951a.5.5 0 1 1 .858.514ZM11 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/>
+                <path d="M2 13c0 1 1 1 1 1h5.256A4.493 4.493 0 0 1 8 12.5a4.49 4.49 0 0 1 1.544-3.393C9.077 9.038 8.564 9 8 9c-5 0-6 3-6 4Z"/>
+              </svg>
+              <h3 class="numbers">15</h3><br> 
+            </div>
+        
+        </section>
+<!-- /*************************************section7*************************************************/-->
+        
+ <section class="section6">
+        <center class="center2">
+        <h1 id="welcome"><b>Call To Action </b></h1>
+        <aside>AchieversIT - Provides a wide group of oppurtunities for freshers and Experienced candidate who can develop <br>
+        their skills and build their career oppurtunitiea across multiple Companies.</aside><br><br>
+        <a class="getstarted" href="">Call To Action</a></center>
+    </section>
+
+    <section class="section7">
+        <!--USE  BOOTSTRAP CARDS OR TO GET ATLEAST SIMILAR THEN USE FIGURE&FIGCAPTION-->
+        <!-- <img class="services"src="./mini-resources/more-service-1.jpg" alt="">
+        <img class="services"src="./mini-resources/more-service-2.jpg" alt="">
+        <img class="services"src="./mini-resources/more-service-3.jpg" alt=""> -->
+        <div class="container">
+            
+            <div class="card" style="width:400px">
+              <img class="card-img-top" src="./mini-resources/more-service-1.jpg" alt="Card image" style="width:100%">
+              <div class="card-body">
+                <center><h4 class="card-title">Autem sunt earum</h4>
+                <p class="card-text">Et erchitecto provident deleniti facere repellat nobis iste.Id facere quia quae dolores dolorem tempore</p>
+                <a href="#" class="btn btn-primary stretched-link">Explore more</a></center>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+           
+            <div class="card" style="width:400px">
+              <img class="card-img-top" src="./mini-resources/more-service-2.jpg" alt="Card image" style="width:100%">
+              <div class="card-body">
+                <center><h4 class="card-title">Nobids et tempore</h4>
+               <p class="card-text">Ut quas omnis est.Non et aut tempora dignissimos similique in didnissims. Sit incident et odit iusto</p>
+                <a href="#" class="btn btn-primary stretched-link">Explore more</a></center>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            
+            <div class="card" style="width:400px">
+              <img class="card-img-top" src="./mini-resources/more-service-3.jpg" alt="Card image" style="width:100%">
+              <div class="card-body">
+                <center><h4 class="card-title">Facere quia quae dolores</h4>
+                <p class="card-text">Modi tu et delectus.Modi nobis saepe voluptates nostrum.Sed quod consequatur quia provident dera</p>
+                <a href="#" class="btn btn-primary stretched-link">Explore more</a></center>
+              </div>
+            </div>
+          </div>
+          
+    </section>
+<!-- /*************************************section8*************************************************/-->
+
+<section class="section8">
+    <div class="architech">
+        <aside class="h3"> Eum ipsam lavorum deleniti <b>velit pariatur architecto aut nihil</aside>
+        <p class="loreum">Lorem ipsum dolor sit amet, consectetur adipscing elit, sed do aiusmod tempor incididunt ut labore magnaaliqua.
+            Duls aute irure dolor in reprehenderit
+        </p>
+        <div class="dropdown">
+        <article class="art1">
+            01 Non consectetur a erat nam at lectus duis? <br>
+            Feugiat premium nibhi ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida.
+            Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+        </article>
+        <article class="art1">
+            01 Non consectetur a erat nam at lectus duis? <br>
+            
+        </article>
+        <article class="art1">
+            01 Non consectetur a erat nam at lectus duis? <br>
+           
+        </article>
+        </div>
+    </div>
+    <div>
+        <img class="architectimage "src="./mini-resources/slide-3.jpg" alt="img">
+    </div>  
+</section>
+<!-- /*************************************section9*************************************************/-->
+<section class="section9">
+    <div>
+    <center><h4 class="about">OUR PORTIFOLIO</h4>
+        <p>Magnum dolars commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit.
+            Quisquam quos quisquam cupiditate.Et nemo qui impedit suscipit alias ea. Quia fugiat sit in inste pfficiis commodi quidem hic quas.
+        </p><br>
+    </div>
+    <div> 
+        <Ul class="portifolio menus">
+            <li class="p-menus"><a href="">ALL</a></li> 
+            <li class="p-menus"><a href="">APP</a></li> 
+            <li class="p-menus"><a href="">CART</a></li> 
+            <li class="p-menus"><a href="">WEB</a></li> 
+         </ul>
+        </center>
+    </div> 
+    <div class="p-images">
+        <img class="p-images1"src="./mini-resources/portfolio-1.jpg" alt="">
+        <img class="p-images1"src="./mini-resources/portfolio-2.jpg" alt="">
+        <img class="p-images1"src="./mini-resources/portfolio-3.jpg" alt="">
+        <img class="p-images1"src="./mini-resources/portfolio-4.jpg" alt="">
+        <img class="p-images1"src="./mini-resources/portfolio-5.jpg" alt="">
+        <img class="p-images1"src="./mini-resources/portfolio-6.jpg" alt="">
+        <img class="p-images1"src="./mini-resources/portfolio-7.jpg" alt="">
+        <img class="p-images1"src="./mini-resources/portfolio-8.jpg" alt="">
+        <img class="p-images1"src="./mini-resources/portfolio-9.jpg" alt="">
+    </div>
+</section>
+<!-- /*************************************section8*************************************************/-->
+<section class="section10">
+    <div>
+        <center><h4 class="about">OUR TEAM</h4>
+            <p>Magnum dolars commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit.
+                Quisquam quos quisquam cupiditate.Et nemo qui impedit suscipit alias ea. Quia fugiat sit in inste pfficiis commodi quidem hic quas.
+            </p><br>
+    </div>
+    <div class="team-images">
+        <img class="tm-images1"src="./mini-resources/team-1.jpg" alt="">
+        <img class="tm-images1"src="./mini-resources/team-2.jpg" alt="">
+        <img class="tm-images1"src="./mini-resources/team-3.jpg" alt="">
+        <img class="tm-images1"src="./mini-resources/team-4.jpg" alt="">
+    </div>
+</section>
+<section class="section11">
+    <div class="contactlogos">
+    
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+            <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+            <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+          </svg>
+          
+        
+
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+            <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+          </svg>
+
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+          </svg>
+
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+            <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+            <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
+          </svg>
+    </div>
+    <div>
+    <form action="">
+        <label class="details">Full Name<br> </label>
+        <input class=""type="text" name="name"placeholder="Your Name">
+        <label class="details">YOUR Email<br> </label>
+        <input class=""type="Email" name="name"placeholder="Your Name"><br>
+        <label class="details">Subject</label><br> 
+        <input class=""type="Email" name="name"placeholder="Subject">
+        <label class="details">Subject</label><br> 
+        <input type="">
+        <button><a href="">Send Message </a></button>
+    </form>
+    </div>
+</section>
+
+<!-- /*************************************section8*************************************************/-->
+
+<section class="section12">
+    <div>
+        <figure>
+        <img src="https://www.achieversit.com/assets/images/logo-white.png" alt="">
+        <figcaption>AchieversIT- provides a wide group of oppurtunities for fresgers and experienced candidates who can develop their skills and
+             build their career oppurtunities across multiple companies.</figcaption>
+    </figure></div>
+    <div>
+        <h3>Useful Links</h3>
+        <ul class="footlinks">
+            <li><a class="links" href="">Home</a></li>
+            <li><a class="links" href="">HAbout US</a></li>
+            <li><a class="links" href="">Services</a></li>
+            <li><a class="links" href="">Terms of services</a></li>
+            <li><a class="links" href="">Privacy policy</a></li>
+        </ul>
+    </div>
+    <div>
+        <h3>Our Services</h3>
+        <ul class="footlinks">
+            <li><a class="links" href="">Web Design</a></li>
+            <li><a class="links" href="">Web Development</a></li>
+            <li><a class="links" href="">Product Management</a></li>
+            <li><a class="links" href="">Marketing</a></li>
+            <li><a class="links" href="">Graphic Design</a></li>
+        </ul>
+    </div>
+    <div>
+        <h3>Our Newsletter</h3>
+        <aside> Tamen Queen nula legan multors aute sint culpa legan noster magna</aside>
+        <input type="text"name="textbox">
+        <input type="submit" name="submit" value="Subscribe">
+    </div>
+</section>
+
+<center><section class="copyright">
+    <p>@Copyright <b>AchieversIT</b>. All Rights Reserved<br>
+    Designed by AchieversIT</p></center><br>
+    </section>   
+</body>
+</html>
